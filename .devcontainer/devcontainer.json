@@ -1,0 +1,17 @@
+{
+    "name": "(Unoffical) OpenJDK AsmTools",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    // Set default container specific settings.json values
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash",
+        "java.home": "/docker-java-home"
+    },
+    // Install Java extension pack in created container
+    "extensions": [
+        "vscjava.vscode-java-pack"
+    ],
+    // Use non-root user, see https://aka.ms/vscode-remote/containers/non-root
+    "containerUser": "vscode"
+}

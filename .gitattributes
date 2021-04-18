@@ -1,0 +1,2 @@
+# All scripts use LF as line terminator
+.devcontainer/asmtools-scripts/* text eol=lf
